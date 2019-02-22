@@ -1,0 +1,20 @@
+sudo apt-get update
+vi /etc/ssh/sshd_config
+service sshd restart
+adduser ansible
+
+visudo
+ansible ALL=(ALL:ALL) NOPASSWD:ALL
+exit
+su ansible
+pwd:- 
+cd /home/ansible
+sudo apt-get update
+sudo apt-get install ansible
+ansible --version
+python --version
+ssh-keygen
+ls .ssh/
+ssh-copy-id username@DNS name
+
+ssh username@DNS name
