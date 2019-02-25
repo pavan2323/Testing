@@ -18,3 +18,20 @@ ls .ssh/
 ssh-copy-id username@DNS name
 
 ssh username@DNS name
+
+
+==========================================
+YAML
+---
+Name: Pavan
+BasicDetails:
+ - Pavan Kumar Maddipetla
+ - Bachanapalli
+ - Gorantla
+ - Ananthapur
+ - AP
+TechicallSkills:
+ - WebSphere Admin
+ - DevOps Engineer.
+Qualification:
+ - Bsc computer science
